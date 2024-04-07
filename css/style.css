@@ -238,7 +238,12 @@
         bottom: 10px;
 
         span {
-            width: 500px;
+            width: 300px;
+            line-height: 14px;
+            font-size: 12px;
+        }
+        span:last-child {
+            margin-top: 4px;
         }
     }
 }
