@@ -10,26 +10,28 @@
 
 <body>
     <div class="wrapper">
-        <h2 id="clock" class="clock">00:00</h2>
-        <form id="login-form" class="login-form hidden">
-            <input required maxlength="15" type="text" placeholder="What is your name?" />
-            <button>Log In</button>
-        </form>
-        <h1 id="greeting" class="greeting hidden">
-            <button id="logout-button" class="logout-button">Log Out</button>
-        </h1>
-        <form id="todo-form" class="todo-form">
-            <input type="text" placeholder="Write a To Do and Press Enter" required maxlength="40"/>
-        </form>
-        <ul id="todo-list" class="todo-list"></ul>
-        <div id="weather" class="weather">
+        <div class="innerWrapper">
+            <h2 id="clock" class="clock">00:00</h2>
+            <form id="login-form" class="login-form hidden">
+                <input required maxlength="15" type="text" placeholder="What is your name?" />
+                <button>Log In</button>
+            </form>
+            <h1 id="greeting" class="greeting hidden">
+                <button id="logout-button" class="logout-button">Log Out</button>
+            </h1>
+            <form id="todo-form" class="todo-form">
+                <input type="text" placeholder="Write a To Do and Press Enter" required maxlength="40" />
+            </form>
+            <ul id="todo-list" class="todo-list"></ul>
+            <div id="weather" class="weather">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="quote" class="quote">
             <span></span>
             <span></span>
         </div>
-    </div>
-    <div id="quote" class="quote">
-        <span></span>
-        <span></span>
     </div>
     <script src="js/clock.js"></script>
     <script src="js/greetings.js"></script>
@@ -38,4 +40,5 @@
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
 </body>
+
 </html>
